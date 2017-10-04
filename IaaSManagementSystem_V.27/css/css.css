@@ -1,0 +1,28 @@
+body {  background-color: #ADD8E6;	overflow: auto;}
+table {  border-collapse: collapse; width: 100%;}
+
+heading {	position: absolute;	width: 100%;	top: 140px;	text-align: center;	left: 0px;	padding: 0px 0px;	font-size: 45px;	z-index: 999;}
+welcome {width: 100%; text-align: center; position: absolute; top: 300px; font-size: 22px;}
+tableContainerOne {position: absolute; right: 0; width: 400px;}
+tableContainerTwo {position: absolute; left: 0; width: 380px; height: auto;}
+tableContainer {background-color: pink; height: auto; left: 10%; width: 900px; margin-left: -450px; padding-top: 15px; overflow-x: auto;}
+divider {	position: absolute;	background-color: lightblue; height: 10px;}
+buttonBox {  width: 100%;  bottom: 0px;  left: 0px;  position: absolute;  height: 43px;  background-color: lightgrey; }
+
+.dropbtn { background-color: #ebf6f9; color: black;  padding: 16px 55px 16px 0px;  text-align: center; font-size: 16px;  width: 75px; cursor: pointer;}
+.dropdown {  position: fixed;  display: inline-block; z-index: 999999999;}
+.dropdown-content { display: none;  position: absolute;  background-color: #ebf6f9;  width: 200px;  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  z-index: 1;}
+.dropdown-content a { color: black;  padding: 12px 16px;  text-decoration: none;  display: block;}
+.dropdown-content a:hover { background-color: rgba(0,0,0,0.2);}
+.dropdown:hover .dropdown-content { display: block; }
+.dropdown:hover .dropbtn { background-color: #ebf6f9;}
+
+.submitBttn { text-align:left; padding: 7px 20px; background-color: lightblue; border-color: rgba(0,0,0,0.3); text-shadow: 0 1px 0 white; color: black; width: 380px;}
+.submitBttnTwo { text-align:center; padding: 7px 20px; background-color: lightblue; border-color: rgba(0,0,0,0.3); text-shadow: 0 1px 0 white; color: black; width: 45%;}
+.submitBttnThree { text-align:center; padding: 7px 20px; background-color: lightblue; border-color: rgba(0,0,0,0.3); text-shadow: 0 1px 0 white; color: black; width: 45%;}
+
+.button:hover { background-color: #E0E0E0; }
+.inputFormAppearance {-webkit-appearance:none;}
+
+#config { width: 355px; z-index: 99999999;}
+#config option { width: 355px; z-index: 99999999;}
